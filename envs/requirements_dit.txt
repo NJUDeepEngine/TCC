@@ -1,0 +1,11 @@
+torch
+torchvision
+timm
+diffusers
+accelerate
+numpy
+pillow
+tqdm
+h5py
+requests
+

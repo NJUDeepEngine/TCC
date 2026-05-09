@@ -1,0 +1,19 @@
+This reproducibility release contains code adapted from multiple
+public upstream repositories.
+
+Primary upstream sources referenced by the release layout:
+
+- DiT (`tcc_dit/cache_dit/`), from Meta's DiT release.
+- ToCa-based DiT and PixArt code (`tcc_dit/toca_dit/` and portions of
+  `tcc_pixart/pixart_alpha/`), from the ToCa release.
+- PixArt-alpha (`tcc_pixart/pixart_alpha/`), from the PixArt-alpha release.
+
+Local modifications in this release mainly provide:
+
+- TCC pack collection and application paths
+- minimal launch scripts for the paper settings
+- release-oriented README and environment notes
+- reproducibility-oriented output packing to `.npz`
+
+Please keep original file headers and consult `LICENSE` plus the full texts in
+`LICENSES/` before redistributing or reusing individual subtrees.

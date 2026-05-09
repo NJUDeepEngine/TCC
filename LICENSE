@@ -1,0 +1,30 @@
+TCC release: mixed-source license notice
+
+This release bundles code adapted from multiple upstream repositories with
+different licenses. No single license applies to the entire tree.
+
+Please preserve file headers and comply with the upstream terms that apply to
+the files you use or redistribute. The main source groups in this release are:
+
+1. `tcc_dit/cache_dit/`
+   Derived primarily from Meta's DiT release, with local TCC release wiring and
+   evaluation helpers.
+   Upstream license text: `LICENSES/CC-BY-NC-4.0.txt`
+
+2. `tcc_dit/toca_dit/`
+   Contains DiT-ToCa-based code together with local TCC additions.
+   Upstream license text: `LICENSES/GPL-3.0.txt`
+
+3. `tcc_pixart/pixart_alpha/`
+   Contains PixArt-alpha-based code together with ToCa-style caching code and
+   local TCC additions.
+   Upstream license texts:
+   - `LICENSES/Apache-2.0.txt`
+   - `LICENSES/GPL-3.0.txt`
+
+4. `scripts/`, `envs/`, and repository-level documentation files
+   Prepared for this reproducibility release. When these files invoke
+   or modify a licensed subtree above, use them under the terms required by the
+   corresponding subtree.
+
+Additional provenance notes are summarized in `NOTICE`.
